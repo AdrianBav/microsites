@@ -1,0 +1,220 @@
+
+/* ********************
+Colour Palette:
+
+Dark Blue:      #384b5b
+Light Blue:     #d2eaff
+Black:          #000000
+White:          #ffffff
+******************** */
+
+html, body  {
+    background-image: url(../images/backdrop_tile.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#wrapper {
+   width: 960px;
+   margin: 0 auto;
+}
+
+.bavanco, .contact, .adrian-bavister, #phone-icon, #email-icon, #linkedin-icon {
+
+    /* Offset the text off to the far left. */
+    /* This allows it be be picked up by a search engine, but not seen by visitor. */
+    text-indent: -9999px;
+}
+
+
+/* Separator. */
+
+.separator {
+    margin-top: 50px;
+}
+
+.line {
+    background-image: url(../images/line.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 12px;
+    width: 305px;
+}
+
+.star {
+    background-image: url(../images/star.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 20px;
+    height: 71px;
+    width: 75px;
+}
+
+
+/* Heading. */
+
+.bavanco {
+    background-image: url(../images/bavanco.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 130px;
+    margin-top: 100px;
+}
+
+.web-design {
+    background-image: url(../images/web_design.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-top: 30px;
+}
+
+
+/* Portfolio. */
+
+.recent-work {
+    background-image: url(../images/recent_work.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 112px;
+}
+
+.thumb {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 25px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.overlay {
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.85;
+
+    /* Position it relative to the thumb DIV. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.overlay p {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 90px;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+
+/* Contact Details. */
+
+.contact {
+    background-image: url(../images/contact.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 114px;
+    margin-top: 50px;
+}
+
+.adrian-bavister {
+    background-image: url(../images/adrian_bavister.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 76px;
+    margin-top: 50px;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.icons #phone-icon {
+    background-image: url(../images/phone.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px;
+    height: 66px;
+    width: 66px;
+}
+
+.icons #email-icon {
+    background-image: url(../images/email.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px;
+    height: 66px;
+    width: 66px;
+}
+
+.icons #linkedin-icon {
+    background-image: url(../images/linkedin.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px;
+    height: 66px;
+    width: 66px;
+}
+
+.icons #phone-icon:hover, .icons #email-icon:hover, .icons #linkedin-icon:hover {
+    background-position: center -66px;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.banner-text {
+    background-image: url(../images/banner_text.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 26px;
+
+    /* Position the banner text in the middle of the banner. */
+    margin-top: -37px;
+}
+
+
+/* Location. */
+
+.location {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.texas {
+    background-image: url(../images/texas.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 114px;
+    width: 120px;
+}
+
+.based-in-dallas-texas {
+    background-image: url(../images/based_in_dallas_texas.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 30px;
+    height: 76px;
+    width: 498px;
+}

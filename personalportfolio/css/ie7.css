@@ -1,0 +1,6 @@
+
+/* By default, IE7 only supports inline-block on naturally inline elements, so you only need this hack for other elements. */
+#navigation #left-bracket, #navigation #right-bracket, #navigation .navigation-link {
+    *display: inline;
+    zoom: 1;
+}

@@ -1,0 +1,136 @@
+/* css version 2.0 */
+/* add.css - for ???.php */
+
+
+body 
+	{ 
+	color: black;
+	background-color: white;
+	font-family: verdana, sans-serif;
+	font-size: 11px; 
+	text-align: center;
+	} 
+
+body.redirect
+	{ 
+	color: gray;
+	background-color: white;
+	font-family: verdana, sans-serif;
+	font-size: 18px; 
+	font-weight: bold;
+	text-align: center;
+	} 
+
+
+/* general text styles */
+.foodTitleName
+	{
+	color: #ffcc33;
+	background-color: white;
+	font-size: 22px;
+	font-weight: bold;	
+	}
+	
+.foodTitle
+	{
+	color: gray;
+	background-color: white;
+	font-size: 22px;
+	font-weight: bold;	
+	}
+
+
+/* used to center the buttons */	
+.btnHolder
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	}
+	
+
+/* food table and cells */	
+.addFoodFormTable
+	{
+	color: black;
+
+	background : #c7b299; 							/* dark brown */
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	border: 3px solid #ffcc33;					/* gold */
+	}
+
+.cellFoodValueTop
+	{
+	padding: 10px;	
+	text-align: left;	
+	}
+
+.cellFoodValue
+	{
+	padding: 10px;	
+	text-align: left;	
+	width: 100px;		
+	}
+
+/* quantity and units */
+.ip1,.ip2
+	{
+	color: black;
+	background: white; 
+	width: 80px;	
+	}
+
+/* carbohydrate */
+.ip3
+	{
+	color: black;
+	background : #cccccc; 							/* light gray */
+	width: 80px;	
+	}
+
+.ip3b
+	{
+	color: black;
+	background : #cccccc; 							/* light gray */
+	width: 40px;	
+	}
+
+/* calories */
+.ip4
+	{
+	width: 40px;
+	color: black;
+	background : #9ec9ec; 							/* light blue */
+	}
+	
+/* sugar */
+.ip5
+	{
+	color: black;
+	background : #eabcd8; 							/* light pink */
+	width: 40px;
+	}
+
+/* fat */
+.ip6
+	{
+	color: black;
+	background : #77ccc7; 							/* light turquoise */
+	width: 40px;
+	}
+
+/* saturates */
+.ip7
+	{
+	color: black;
+	background : #a3dbdc; 							/* light green */
+	width: 40px;
+	}
+
+/* salt */
+.ip8
+	{
+	color: black;
+	background : #ffd285; 							/* light tan */
+	width: 40px;
+	}

@@ -1,0 +1,163 @@
+
+html, body {
+    background-image: url(../images/grey-tile.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.tooltip {
+    color: #333333;
+    background-color: #6dcff6;
+    border: 1px solid #333333;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 2px 6px;
+
+    /* Tool tip will be revealed by JavaScript. */
+    display: none;
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 246px;
+    margin-top: 50px;
+    text-indent: -9999px;
+
+    /* Allow the download icon to be positioned relative to this. */
+    position: relative;
+}
+
+#banner .download-resume {
+    background-image: url(../images/download.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 65px;
+    width: 180px;
+    text-indent: -9999px;
+
+    /* Position it relative to the banner DIV. */
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+#banner .download-resume:hover {
+    background-position: 0px -65px;
+}
+
+
+/* Project Navigation. */
+
+#navigation {
+    margin-top: 50px;
+}
+
+#navigation #left-bracket {
+    background-image: url(../images/left-bracket.png);
+}
+
+#navigation #right-bracket {
+    background-image: url(../images/right-bracket.png);
+}
+
+#navigation #left-bracket, #navigation #right-bracket {
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 30px;
+    height: 228px;
+    width: 68px;
+}
+
+#navigation #left-bracket:hover, #navigation #right-bracket:hover {
+    background-position: center -228px;
+}
+
+#navigation .navigation-link {
+    display: inline-block;
+    margin: 0 30px;
+
+    /* Allow the overlay to be positioned relative to this. */
+    position: relative;
+}
+
+#navigation .project-thumb {
+    background-image: url(../projects/thumbs.jpg);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    outline: 3px solid #6dcff6;
+    height: 228px;
+    width: 350px;
+
+    /* This is a dummy property that will not be noticed. */
+    border-spacing: 0;
+}
+
+#navigation .overlay {
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    cursor: pointer;
+    z-index: 10;
+
+    /* Position it relative to the navigation DIV. */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Must match the size of the thumbnails. */
+    height: 228px;
+    width: 350px;
+}
+
+#navigation .overlay p {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 100px;
+    text-transform: uppercase;
+
+    /* Position the overlay text behind the actual overlay. */
+    z-index: 5;
+}
+
+
+/* Project Information. */
+
+#information-box {
+    background-image: url(../images/info-box.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 182px;
+    margin-top: 60px;
+    text-indent: -9999px;
+
+    /* Allow the information text to be positioned relative to this. */
+    position: relative;
+}
+
+#information-text {
+    background-image: url(../projects/infos.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    height: 134px;
+    width: 519px;
+
+    /* Position the information text relative to the information box. */
+    position: absolute;
+    top: 28px;
+    left: 221px;
+    z-index: 100;
+}

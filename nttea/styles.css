@@ -1,0 +1,51 @@
+/* CSS level 2 */
+/* styles.css: for index.html */
+
+body 
+	{ 
+	color: black;
+	background-color: #ffcc99;
+	font-family: sans-serif;
+	text-align: center;
+	} 
+
+a:link,a:visited,a:active 
+	{ 
+	color: #770000;
+	background-color: white;
+	} 
+
+img 
+	{ 
+	border: none;
+	} 
+
+img.logo
+	{ 
+	border: none;
+	} 
+	
+.title
+	{
+	color: #996666;
+	background-color: #ffcc99;
+	font-size: 24pt;
+	font-weight: 900;
+	font-variant:small-caps;
+	margin-top: 25px;
+	}
+
+
+.teaApp
+	{
+	margin-top: 75px;
+	}
+	
+	
+.bodyText
+	{
+	color: #663333;
+	background-color: #ffcc99;
+	margin-top: 25px;
+	}
+	

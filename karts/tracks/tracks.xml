@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- tracks.xml - for xmlExtract.js -->
+
+<gallery>
+	<track>
+		<name>Basildon</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>Always produces close racing. A win in never guaranteed.</notes>
+	</track>
+	<track>
+		<name>Baz Vegas</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>A natural extension of Basildon keeping the spirit of the original circuit.</notes>
+	</track>
+	<track>
+		<name>Brentwood</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A faithful re-creation of a real karting circuit situated in Essex. A hard track to master.</notes>
+	</track>
+	<track>
+		<name>Crossfire</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>A cheeky little track. Not a serious racer, just a bit of fun.</notes>
+	</track>
+	<track>
+		<name>Dagenham Dave</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>Inspired by the Ford Dagenham factory. One of the hardest circuits in the KARTS series.</notes>
+	</track>
+	<track>
+		<name>Dock Of The Bay</name>
+		<creator>Mark</creator>
+		<championship>Classics</championship>
+		<notes>Based on St. Katharine Docks, a tricky little circuit.</notes>
+	</track>
+	<track>
+		<name>Flat</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A high speed full-throttle racing experience. With no run offs, mistakes are costly.</notes>
+	</track>
+	<track>
+		<name>Flat II</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>With one less corner than 'Flat', this is the ultimate high speed experience.</notes>
+	</track>
+	<track>
+		<name>GTX-Clubman</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>Utilises the southern part of the GTX complex. Hard to make up time if behind.</notes>
+	</track>
+	<track>
+		<name>GTX-Indy</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>The shortest of the three GTX circuits, a lot depends on the first and last corners.</notes>
+	</track>
+	<track>
+		<name>GTX-National</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>The National is the longest of the GTX tracks. The back circuit features a hairpin.</notes>
+	</track>
+	<track>
+		<name>In-Round</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>The Sprint season opener. A Classics oval, recently re-vamped.</notes>
+	</track>
+	<track>
+		<name>Long Straight</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A twisty track, despite the name. Always produces a good race.</notes>
+	</track>
+	<track>
+		<name>Motocross</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>Features jumps and a crossover. Can be won and lost on the first corner.</notes>
+	</track>
+	<track>
+		<name>PC World</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>A nostalgic tribute to the history of computing. Features everything from long straights to hairpins to tunnels.</notes>
+	</track>
+	<track>
+		<name>RAC Rally</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>With a mix of terrains and tight town streets, 'RAC-Rally' is a challenging circuit.</notes>
+	</track>
+	<track>
+		<name>Race Track</name>
+		<creator>Adrian</creator>
+		<championship>Sprint</championship>
+		<notes>A new breed of circuit incorporating new racing track tiles. Several technical corners.</notes>
+	</track>
+	<track>
+		<name>Rome</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>A unique circuit twisting through the tight Rome streets on a bed of gravel.</notes>
+	</track>
+	<track>
+		<name>Rome City</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>An extended version of 'Rome' with patches of tarmac. Equally challenging.</notes>
+	</track>
+	<track>
+		<name>Salt Lake City</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>Based on a real venue, this circuit provides great racing around the full length of the track.</notes>
+	</track>
+	<track>
+		<name>Simples Mk III</name>
+		<creator>Mark</creator>
+		<championship>Classics</championship>
+		<notes>The last surviving 'Simples' circuit. Looking out dated now and in need of a revamp.</notes>
+	</track>
+	<track>
+		<name>Stadium</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A new addition to the Sprint championship has proved to be an instant Classics. Very close racing.</notes>
+	</track>
+	<track>
+		<name>Tarmac Terry</name>
+		<creator>Mark</creator>
+		<championship>Classics</championship>
+		<notes>Once of the most technically demanding circuits. A very twisty end section requires great skill.</notes>
+	</track>
+	<track>
+		<name>Test Track 020</name>
+		<creator>Mark</creator>
+		<championship>Classics</championship>
+		<notes>Pick your way through the sand on 'TestTrack020s' end section.</notes>
+	</track>
+	<track>
+		<name>The Suburbs</name>
+		<creator>Adrian</creator>
+		<championship>Classics</championship>
+		<notes>Race through the Suburbs and into the forest on this accurately rendered track. Look out for road closures!</notes>
+	</track>
+	<track>
+		<name>The Zone</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A Classics track that always produces close racing. Harder than it looks.</notes>
+	</track>
+	<track>
+		<name>Woody Green</name>
+		<creator>Mark</creator>
+		<championship>Classics</championship>
+		<notes>An extended version of 'Woody Parl' which allows you to open up the throttle a bit more.. But be carefull!</notes>
+	</track>
+	<track>
+		<name>Woody Park</name>
+		<creator>Mark</creator>
+		<championship>Sprint</championship>
+		<notes>A simple looking track that deserves full respect. Requires high skill and a light touch.</notes>
+	</track>
+</gallery>

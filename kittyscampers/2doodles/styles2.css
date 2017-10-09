@@ -1,0 +1,73 @@
+/* CSS level 2 */
+/* styles for kitty doodles */
+
+body 
+	{ 
+	color: #ffffff;											/* white */
+	background-color: #333333;					/* light gray */
+	font-family: sans-serif;
+	text-align: center;
+	} 
+
+img 
+	{ 
+	border: none;
+	} 
+	
+.logo
+	{ 
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	} 
+
+.boxTitle
+	{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	}
+	
+.boxButtons
+	{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	}
+
+.boxDoodle
+	{	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 35px;
+	}
+	
+.btnMain
+	{
+	margin-bottom: 0px;
+	margin-top: 1px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	}
+	
+.btnNav
+	{
+	color: #ffcc00;											/* gold */
+	background-color: #333333;					/* light gray */
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	}
+
+.picTitle
+	{
+	color: #ffcc00;											/* gold */
+	background-color: #333333;					/* light gray */
+	margin-top: 10px;	
+	}

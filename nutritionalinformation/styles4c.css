@@ -1,0 +1,307 @@
+/* css version 2.0 */
+/* index.css - for index.html */
+
+
+body 
+	{ 
+	color: black;
+	background-color: white;
+	font-family: verdana, sans-serif;
+	font-size: 11px; 
+	text-align: center;
+	} 
+	
+img.logo
+	{ 
+	border: none;
+	} 
+
+
+/* general text styles */
+.tblTitle
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	text-align: left;
+	width: 100%;
+	}
+
+.tdTitle1
+	{
+	width: 120px;
+	}
+	
+.tdTitle2
+	{
+	width: 350px;
+	}
+
+.title
+	{ 
+	color: black;
+	background-color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	} 
+	
+.subTitle
+	{ 
+	color: gray;
+	background-color: white;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: left;
+	} 
+
+
+/* place holder table and cells */
+.tblHolder
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	}	
+	
+.cellSearch
+	{
+	text-align: left;
+	vertical-align: top;
+	height: 200px;
+	width: 360px;
+	}
+
+.cellFood
+	{
+	text-align: center;
+	vertical-align: top;
+	width: 850px;
+	}
+
+.cellEdit
+	{
+	color: gray;
+	background-color: #c7b299;					/* light brown */
+	border: 3px solid gray;
+	padding: 5pt;
+	}
+
+/* debug borders */
+/*
+.cellSearch, .cellFood, .cellEdit, .cellTotals
+	{
+	border : 1px solid blue;
+	}
+*/	
+
+.cellTotals
+	{
+	vertical-align: top;
+	}
+
+.cellDose
+	{
+	color: black;
+	background-color: #988675;					/* dark brown */
+	border: 3px solid gray;
+	padding: 5pt;
+	}
+	
+	
+/* search/suggestion styles */
+#txtSearch 
+	{ 
+	font-size: 13px; 
+	padding-left: 4px; 
+	width: 300px; 	
+	}
+
+#searchSuggest
+	{
+	border: 1px solid black; 
+	display: none;
+	float: left; 
+	width: 306px; 
+	}
+
+.suggestLink 
+	{
+	color: black;
+	background-color: white;
+	padding: 2px 6px 2px 6px;
+	}
+			
+.suggestLinkOver
+	{
+	color: white;
+	background-color: #99ccff;					/* light blue highlight */
+	cursor: pointer;
+	padding: 2px 6px 2px 6px;
+	}	
+
+
+/* food table and cells */	
+.foodTable
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	text-align: center;
+	}
+
+/* borders round the table headings and totals */
+.cellF1,.cellF2,.cellF3,.cellF4,.cellF5,.cellF6,.cellF7,.cellF8,.cellF1n2
+	{
+	border: 1px solid black;
+	}
+
+/* totals box */
+.cellF1n2
+	{
+	width: 345px;
+	}	
+
+/* food name header */
+.cellF1
+	{
+	width: 275px;
+	}
+
+/* food quantity header */
+.cellF2
+	{
+	width: 70px;
+	}
+	
+/* carbohydrate */
+.cellF3
+	{
+	color: black;
+	background: #cccccc; 								/* light gray */
+	width: 90px;	
+	}
+
+/* calories */
+.cellF4
+	{
+	color: black;
+	background: #9ec9ec; 								/* light blue */ 
+	width: 65px;	
+	}
+	
+/* sugar */
+.cellF5
+	{
+	color: black;
+	background: #eabcd8; 								/* light pink */
+	width: 65px;	
+	}
+
+/* fat */
+.cellF6
+	{
+	color: black;
+	background: #77ccc7; 								/* light turquoise */
+	width: 65px;	
+	}
+
+/* saturates */
+.cellF7
+	{
+	color: black;
+	background: #a3dbdc; 								/* light green */
+	width: 65px;	
+	}
+
+/* salt */
+.cellF8
+	{
+	color: black;
+	background: #ffd285; 								/* light tan */
+	width: 65px;	
+	}
+
+/* a highlighted row */
+.rowHighlight
+	{
+	color: black;
+	background: #99ccff; 								/* light blue highlight */
+	cursor: pointer;		
+	}
+
+/* an un-highlighted row */
+.rowHighlightOff
+	{
+	color: black;
+	background: white; 
+	cursor: default;		
+	}
+
+
+/* edit quantity */
+.txtEdit
+	{
+	color: gray;
+	background: #c7b299; 								/* light brown */
+	font-size: 14px; 
+	font-weight: bold;	
+	text-align: left;
+	}
+	
+
+/* doseage pannel */
+.txtDose
+	{
+	color: #ffcc33;											/* gold */
+	background-color:#988675;						/* off-white */
+	font-size: 14px; 
+
+	font-weight: bold;	
+	}	
+	
+.doseCenter
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	}	
+	
+.doseLeft
+	{
+	text-align: left;
+	}
+
+/* dose edit buttons */
+.btnDose
+	{
+	color: black;
+	background-color:#f5f5f5;						/* off-white */
+	border:1px solid gray;
+	cursor: pointer;	
+	font-size: 80%;	
+	}
+	
+.btnDose:hover
+	{
+	color: #333333;											/* dark gray */
+	background-color:#ffff99;						/* light yellow */
+	border: 1px solid #ffcc33;					/* gold */
+	}	
+
+/* input box */
+.txtSugars
+	{
+	color: black;
+	background: #ffcc33; 								/* gold */
+	width: 40px;
+	}
+
+
+
+
+/* ------*/
+/* debug */
+/* ------*/
+.dgb
+	{
+	color: #cccccc;
+	background-color: white;
+	}
+	

@@ -1,0 +1,86 @@
+/* CSS level 2 */
+/* styles.css: for index.html */
+
+body 
+	{ 
+	color: gray;
+	background-color: white;
+	font-family: sans-serif;
+	text-align: center;
+	} 
+
+a:link,a:visited,a:active 
+	{ 
+	color: #cccccc;
+	background-color: white;
+	text-decoration: none;
+	} 
+	
+a:hover
+	{ 
+	color: gray;
+	background-color: white;
+	text-decoration: none;
+	} 
+
+.logo
+	{ 
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	} 	
+
+img 
+	{ 
+	border: none;
+	} 
+
+
+/* cocky title */
+.titlebox
+	{
+	color: white;
+	background-color: #ff0000;
+	margin-top: 35px;
+	}
+
+.picCocky
+	{ 
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	} 	
+	
+.btnContinue
+	{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	}
+
+	
+/* main page */
+.flBuild
+	{
+	margin-top: 100px;
+	}
+
+
+/* map page */
+.flMap
+	{
+	margin-top: 65px;
+	}
+
+
+/* quiz page */
+.txtQuiz
+	{
+	font-size: 14pt;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	}
+
+.logoCenter
+	{
+	margin-top: 150px;
+	}

@@ -1,0 +1,15 @@
+
+/* By default, IE7 only supports inline-block on naturally inline elements, so you only need this hack for other elements. */
+.line, .star, .thumb, .icons #phone-icon, .icons #email-icon, .texas, .based-in-dallas-texas {
+    *display: inline;
+    zoom: 1;
+}
+
+/* Text indent in IE7 moves the icons as well as the text. */
+#phone-icon, #email-icon {
+    text-indent: 0;
+
+    /* As the text indent has been removed, hide the text another way. */
+    font-size:0;
+    line-height:0;
+}

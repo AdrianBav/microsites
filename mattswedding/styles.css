@@ -1,0 +1,660 @@
+/* css version 2.0 */
+/* styles.css - for index.html and sub-menus */
+
+
+body 
+	{ 
+	color: #333333;											/* dark grey */
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 16px; 
+	text-align: center;
+	} 
+
+a:link,a:visited,a:active 
+	{
+	color: white;
+	background-color: #6699ff;					/* pale blue */
+	font-size: 18px; 
+	text-decoration: none; 	
+	}
+	
+a:hover
+	{ 
+	color: white; 
+	background-color: #66ff66;					/* pale green */
+	font-size: 18px; 	
+	text-decoration: none; 
+	}		
+
+img 
+	{ 
+	border: none;
+	} 
+
+
+/* common styles */
+.title
+	{ 
+	color: #666666;											/* grey */
+	background-color: white;
+	font-size: 32px; 
+	font-weight: 900;
+	} 
+
+.subtitle
+	{ 
+	color: #ff99cc;											/* pink */
+	background-color: white;
+	font-size: 22px; 
+	font-variant: small-caps;
+	font-weight: 700;
+	} 
+
+a:link.menu,a:visited.menu,a:active.menu
+	{ 
+	color: white;
+	background-color: #66ff66;					/* pale green */
+	font-size: 18px; 
+	font-weight: 900;
+	text-decoration: none; 	
+	} 
+	
+a:hover.menu
+	{ 
+	color: white;
+	background-color: #6699ff;					/* pale blue */
+	font-size: 18px; 
+	font-weight: 900;
+	text-decoration: none; 
+	}	
+
+.linkDisabled
+	{
+	color: white;
+	background-color: #6699ff;					/* pale blue */
+	font-size: 18px; 
+	font-weight: 900;
+	}
+	
+.pinkHighlight
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	}	
+	
+
+/* general information page */
+.tableGeneral
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	text-align: left;
+	width: 90%;
+	}
+
+
+/* links page */	
+.tableLinks
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	text-align: left;
+	width: 90%;
+	}
+
+
+/* disco page */
+.discoTable1
+	{
+	color: white;
+	background-color: #cccccc;					/* light grey */
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */	
+	width: 1000px;
+	}
+	
+.discoBlogTop
+	{
+	color: #ffffff;											/* dark grey */
+	background-color: #cccccc;					/* light grey */
+	font-size: 18px;
+	font-weight: 900;
+	padding: 5px;
+	text-align: left;
+	width: 100%;
+	}
+	
+.discoBlogBottom
+	{
+	color: #333333;											/* dark grey */
+	background-color: #cccccc;					/* light grey */
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	}
+
+.discoEntry1
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	padding: 5px;
+	text-align: center;
+	}
+	
+.discoEntry2
+	{
+	color: #333333;											/* dark grey */
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	}
+	
+.discoEntry1b
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	padding: 5px;
+	text-align: center;
+	width: 149px;
+	}
+	
+.discoEntry2b
+	{
+	color: #333333;											/* dark grey */
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	width: 149px;
+	}
+	
+.discoEntry1small
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	padding: 5px;
+	text-align: center;
+	width: 18px;
+	}
+	
+.discoEntry2small
+	{
+	color: #333333;											/* dark grey */
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	width: 18px;
+	}	
+
+.discoNum
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	padding: 5px;	
+	text-align: center;
+	width: 15px;
+	}
+	
+.discoTitle
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	padding: 5px;	
+	text-align: center;
+	width: 250px;
+	}
+
+.discoArtist
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	padding: 5px;	
+	text-align: center;
+	width: 250px;
+	}
+
+.discoNotes
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	padding: 5px;	
+	text-align: center;
+	width: 300px;
+	}
+
+.discoGuest
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	padding: 5px;	
+	text-align: center;
+	}
+
+
+/* gallery page */
+a:link.nav,a:visited.nav,a:active.nav
+	{ 
+	color: #888888;											/* grey */
+	background-color: white;
+	font-size: 15px; 
+	text-decoration: none; 	
+	} 
+	
+a:hover.nav
+	{ 
+	color: #888888;											/* grey */
+	background-color: #ffff00;					/* yellow */
+	font-size: 15px; 
+	text-decoration: none; 
+	}	
+	
+.navTree
+	{
+	text-align: left;
+	}
+
+.navTxt
+	{ 
+	color: #888888;											/* grey */
+	background-color: white;
+	font-size: 15px; 
+	}	
+	
+.navArrow
+	{
+	color: #888888;											/* grey */
+	background-color: white;
+	font-size: 15px; 
+	}
+
+.navImg
+	{ 
+	color: black;
+	background-color: white;
+	vertical-align: middle;
+	}	
+
+.tableControl
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	width: 100%;
+	}
+
+.tableControlTD1, .tableControlTD2, .tableControlTD3, .tableControlTD4, .tableControlTD5
+	{
+	color: white;
+	background-color: #ffcccc;					/* pink */
+	}
+	
+.tableControlTD1
+	{
+	padding: 10px;
+	text-align: center;	
+	width: 50%;
+	}
+	
+.tableControlTD2
+	{
+	font-size: 14pt;
+	padding: 10px;
+	text-align: center;	
+	width: 25%;
+	}
+	
+.tableControlTD3
+	{
+	font-size: 14pt;
+	text-align: left;	
+	}
+	
+.tableControlTD4
+	{
+	font-size: 13pt;
+	text-align: center;	
+	}
+	
+.tableControlTD5
+	{
+	font-size: 11pt;
+	text-align: left;	
+	}
+
+.subPanel
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	}
+
+.folderfileTable
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */
+	width: 98%;
+	}
+
+.hiddenFolderCell
+	{
+	width: 16%;
+	}
+
+.hiddenImageCell
+	{
+	width: 33%;
+	}
+
+.folderCell
+	{
+	padding: 10px;
+	text-align: center;
+	width: 16%;	
+	}
+
+.imageCell
+	{
+	padding: 10px;
+	text-align: center;	
+	width: 33%;
+	}
+
+.errorText
+	{
+	color: red;
+	background-color: white;
+	font-size: 10pt;
+	}
+	
+.infoText
+	{
+	color: green;
+	background-color: white;
+	font-size: 10pt;
+	}
+	
+.msgText
+	{
+	text-align: center;	
+	}
+
+input.txtBox
+	{
+	font-size: 12pt;
+	height: 24px;
+	}
+
+input.btnLogin 
+	{
+	color: #888888;											/* grey */
+	background-color: white;
+	border: 1px solid #888888;					/* grey */
+	font-size: 9pt;
+	}
+	
+input.btnDelete
+	{
+	color: #cc0000;											/* dark red */
+	background-color: white;
+	border: 1px solid #cc0000;					/* dark red */
+	font-size: 10pt;
+	}
+
+	
+/* blog page (also used by community.php) */
+a:link.blogImages,a:visited.blogImages,a:active.blogImages,a:hover.blogImages
+	{
+	color: #6699ff;											/* pale blue (e-mail address on the delete entry page) */
+	background-color: transparent;			/* produces 4 warnings */
+	text-decoration: none; 
+	}
+	
+a:link.multiPage,a:visited.multiPage,a:active.multiPage 
+	{
+	color: #333333;											/* dark grey */
+	background-color: transparent;			/* produces 3 warnings */
+	font-size: 14px; 	
+	}
+	
+a:hover.multiPage
+	{ 
+	color: #333333; 										/* dark grey */
+	background-color: yellow;
+	font-size: 14px; 	
+	text-decoration: none; 
+	}	
+
+a:link.linkAddComment,a:visited.linkAddComment,a:active.linkAddComment 
+	{
+	color: #333333;											/* dark grey */
+	background-color: white;
+	}
+	
+a:hover.linkAddComment
+	{ 
+	color: #ff9999;											/* pink */
+	background-color: white;
+	text-decoration: none; 
+	}	
+
+.table1
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */	
+	width: 600px;
+	}
+
+.table2 	
+	{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;												/* centers the table in firefox */	
+	width: 100%;
+	}
+
+.table2tdThinA
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	border: 1px solid black;
+	font-size: x-small;
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+	width: 15px;
+	}
+
+.table2tdThinB
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	border: 1px solid black;
+	font-size: x-small;
+	padding: 5px;	
+	text-align: center;
+	vertical-align: top;
+	width: 15px;
+	}
+
+.table2tdWideA
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+	width: 570px;
+	}
+
+.table2tdWideB
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffffff;					/* white */
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+	width: 570px;
+	}
+	
+.blogTop
+	{
+	color: #ffffff;											/* dark grey */
+	background-color: #ff9999;					/* dark pink */
+	font-size: 18px;
+	font-weight: 900;
+	padding: 5px;
+	text-align: left;
+	width: 100%;
+	}
+	
+.blogBottom
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ff9999;					/* dark pink */
+	font-size: 14px;
+	text-align: center;
+	width: 600px;
+	}
+
+.noEntrys
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ffcccc;					/* pink */
+	text-align: center;
+	}
+
+.tableAdd
+	{
+	border-collapse: collapse;
+	color: #333333;											/* dark grey */
+	background-color: #999999;					/* grey */
+	margin: auto;												/* centers the table in firefox */	
+	text-align: left;
+	width: 500px;
+	}
+
+.tableAdd2
+	{
+	width: 100%;
+	}
+	
+.tableAdd2tr
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ccccff;					/* light blue */
+	}
+
+.tableAdd2td1
+	{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+	width: 28%;
+	}
+	
+.tableAdd2td2
+	{
+	padding: 5px;	
+	width: 72%;
+	}
+	
+.commentText
+	{
+	font-size: 15px;
+	font-style: italic;
+	}
+	
+.currentPage
+	{
+	color: black;
+	background-color: transparent;			/* produces 1 warning */
+	}
+	
+.spacer
+	{
+	width: 5px;
+	}
+	
+.postName
+	{
+	font-size: 15px;
+	}
+	
+.smallText
+	{
+	font-size: 11px;
+	}
+	
+.emailPos
+	{
+	text-align: right;
+	vertical-align: top;
+	}
+
+.tableDelete
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */	
+	text-align: left;
+	width: 450px;
+	}	
+	
+.tableDeleteTd
+	{
+	color: #333333;											/* dark grey */
+	background-color: #ccccff;					/* light blue */
+	border: 1px solid black;	
+	padding: 5px;
+	}
+
+
+/* maps page */
+.tableMaps
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */	
+	text-align: left;
+	}
+
+.mapWidth
+	{
+	vertical-align: top;
+	width: 450px;
+	}
+
+.addressWidth
+	{
+	width: 550px;
+	}
+
+
+/* bed and breakfast page */
+a:link.bnb,a:visited.bnb,a:active.bnb,a:hover.bnb
+	{ 
+	color: #6699ff;											/* pale blue */
+	background-color: white;
+	font-size: 14px; 
+
+	text-decoration: none; 	
+	} 
+
+.addressWidthCenter
+	{
+	text-align: center;
+	width: 550px;
+	}
+
+
+/* contact us page */
+.tableContact
+	{
+	border-collapse: collapse;
+	margin: auto;												/* centers the table in firefox */	
+	border: 1px solid #666666;					/* dark grey */	
+	color: #666666; 										/* dark grey */
+	background-color: #ffffcc;					/* light yellow */
+	text-align: left;
+	}
+
+.contact
+	{
+	padding: 1em;
+	}

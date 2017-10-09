@@ -1,0 +1,152 @@
+/* CSS level 2 */
+/* styles.css: for index.html */
+
+body 
+	{ 
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+	text-align: center;
+	} 
+
+a:link,a:visited,a:active 
+	{ 
+	color: #990000;											/* dark red */
+	background-color: white;
+	font-size: 12pt;
+	font-weight: bold;
+	} 
+	
+a:hover
+	{ 
+	text-decoration: underline;
+	} 
+
+img 
+	{ 
+	border: none;
+	} 
+
+img.track
+	{ 
+	border: 1px black solid;
+	} 
+
+.kartLogo
+	{
+	margin-top: 25px;
+	}
+	
+.tagline
+	{
+	color: #666666;
+	background-color: white;
+	font-size: 14pt;
+	font-weight: 900;
+	font-variant:small-caps;
+	margin-top: 25px;
+	}
+
+.menuTitle
+	{
+	margin-top: 50px;	
+	}
+
+.pollBox
+	{
+	color: #666666;
+	background-color: white;
+	border: 10px solid #cccccc;
+	font-weight: 700;
+	margin: auto;												/* centers the box */
+	margin-top: 75px;	
+	padding: 5px;
+	width: 400px;
+	}
+
+
+/* holds the menu items */	
+.menuBox
+	{
+	margin-top: 100px;
+	}
+
+.aboutBox
+	{
+	margin-top: 25px;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;	
+	}
+	
+.linksBox
+	{
+	margin-top: 50px;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;	
+	}
+
+.carsBox
+	{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;	
+	}
+
+.championshipsBox
+	{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;		
+	}
+
+
+/* tracks gallery */
+.tracksBox
+	{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.galtxtName
+	{
+	color: gray;
+	background-color: white;
+	font-size: 18pt;
+	font-weight: 900;
+	}
+	
+.galtxtCreator
+	{
+	color: #333333;
+	background-color: white;
+	font-size: 11pt;
+	}
+	
+.galtxtChampionship
+	{
+	color: #660000;
+	background-color: white;
+	font-size: 11pt;
+	font-style: italic;
+	font-weight: 700;
+	}
+
+.galtxtNotes
+	{
+	color: #333333;
+	background-color: white;
+	font-size: 13pt;
+	}
+	
+.galtxtLink
+	{
+	color: #880000;
+	background-color: white;
+	font-size: 8pt;
+	}
+	

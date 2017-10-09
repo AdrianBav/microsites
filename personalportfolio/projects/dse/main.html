@@ -1,0 +1,62 @@
+<div class="modal">
+    <div class="project-container">
+
+        <div class="title-block">
+            <h2>Portal for viewing instrumentation of customer equipment</h2>
+            <p>Company: Deep Sea Electronics</p>
+            <p>URL:&nbsp;<a href="http://www.livegenset.com/" onclick="window.open(this.href); return false;">http://www.livegenset.com/</a></p>
+            <p>This project is complete and has been fully handed over to the customer.</p>
+            <p class="note">Note: Due to the sensitivity of the company's data, I have no credentials to provide for login.</p>
+        </div>
+
+        <div class="screen-shots">
+            <img src="projects/dse/1.jpg" alt="" width="500px" height="300px" />
+            <img src="projects/dse/2.jpg" alt="" width="500px" height="300px" />
+            <img src="projects/dse/3.jpg" alt="" width="500px" height="300px" />
+            <img src="projects/dse/4.jpg" alt="" width="500px" height="300px" />
+        </div>
+
+        <div class="explainations">
+            <h3>Customer requirements</h3>
+            <ul>
+                <li>User account creation and secure login</li>
+                <li>Site navigation via an expanding hierarchical tree and customizable menu buttons.</li>
+                <li>Use of dials and other widgets to display real-time data from the equipment. It must be possible for the user to drag these widgets into position and save their changes.</li>
+                <li>The ability to capture and display events relating to a piece of equipment (eg: Oil Pressure Low). The user should be able to configure custom event triggers to capture only the events they are interested in.</li>
+                <li>Events that require user action (warnings and alarms), must be captured and displayed real-time in the form of on-screen popup boxes.</li>
+                <li>There must be a facility to automatic generate a PDF report, detailing the state of a piece of equipment. These reports need the option of being periodically e-mailed to the user.</li>
+                <li>There must be full language support allowing the user to submit a translation file for their chosen language resulting in all text in the portal being translated.</li>
+            </ul>
+
+            <h3>Instrumentation</h3>
+            <ul>
+                <li>Data from the industrial equipment was communicated to the server in a defined JSON structure.</li>
+                <li>On the receiving the data it was parsed and stored in a database.</li>
+                <li>The web portal could then periodically request data from the server to display on dials and other widgets.</li>
+            </ul>
+
+            <h3>Portal Configuration</h3>
+            <ul>
+                <li>The web portal has the ability to be customized in many ways.</li>
+                <li>This included the personalizing the colors and images used in the web portal, the language, the content of automatically generated reports and the filtering of notifications to name a few.</li>
+                <li>The user can choose which pieces of equipment they want to add to the portal for monitoring as well as choosing which aspects of the equipment they want to monitor via the removal and addition of data widgets.</li>
+            </ul>
+
+            <h3>Data protocols</h3>
+            <p>Each piece of industrial equipment is fitted with a box of electronics which allows data to be received and transmitted to the web portal. Strict data protocols were devised to allow this data to be understood at both ends.</p>
+            <p>Data was transferred in the JSON format; For example:</p>
+            <code>{"ID":{"a":{"Alarm-ID":{"Timestamp":Alarm-Severity}}}}</code><br /><br />
+            <p>Where parameters are clearly defined; For example:</p>
+            <table>
+                <tr><th>Alarm-Severity</th><th>Description</th></tr>
+                <tr><td>0</td><td>No Severity</td></tr>
+                <tr><td>1</td><td>Information</td></tr>
+                <tr><td>2</td><td>Warning</td></tr>
+                <tr><td>3</td><td>Shutdown</td></tr>
+                <tr><td>4</td><td>Electrical Trip</td></tr>
+                <tr><td>5</td><td>Engine</td></tr>
+            </table>
+        </div>
+
+    </div>
+</div>

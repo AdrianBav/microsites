@@ -1,0 +1,113 @@
+/* CSS level 2 */
+/* styles.css: for 'Richard Wooldridge's Homepage' */
+
+body 
+	{ 
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 12pt; 
+	text-align: center;
+	} 
+
+img 
+	{ 
+	border: 1px solid black;
+	} 
+	
+.no_border
+	{ 
+	border: none;
+	} 	
+
+	
+/* general table and titles */
+table
+	{ 
+	border-collapse: collapse;
+	border: none;
+	margin: auto;												/* centers the table in firefox */
+	width: 650px;
+	} 
+	
+td
+	{
+	padding: 10px;
+	}
+	
+
+#biography_title, #work_title, #hobbies_title, #sport_title, #other_title
+	{ 
+	font-size: 20px; 
+	font-weight: bold;
+	font-variant: small-caps;
+	} 	
+
+.main_title
+	{
+	font-size: 25px; 
+	font-weight: bold;
+	font-variant: small-caps;
+	}
+
+
+/* colours */
+table.biography 
+	{ 
+	color: white;
+	background-color: #999999;					/* gray */
+	} 	
+
+#biography_title
+	{ 
+	color: white;
+	background-color: #666666;					/* darker gray */
+	} 	
+
+table.work 
+	{ 
+	color: black;
+	background-color: #ffcc00;					/* yellow */
+	} 	
+
+#work_title
+	{ 
+	color: black;
+	background-color: #ff9900;					/* darker yellow */
+	} 	
+
+table.hobbies 
+	{ 
+	color: black;	
+	background-color: white;						/* white */
+	} 	
+
+#hobbies_title
+	{ 
+	color: black;
+	background-color: #cccccc;					/* darker white */
+	} 	
+	
+table.sport 
+	{ 
+	color: white;	
+	background-color: #339933;					/* green */
+	} 	
+
+#sport_title
+	{ 
+	color: white;
+	background-color: #006600;					/* darker green */
+	} 	
+	
+table.other 
+	{ 
+	color: white;	
+	background-color: #ff9900;					/* orange */
+	} 	
+
+#other_title
+	{ 
+	color: white;
+	background-color: #ff6600;					/* darker orange */
+	} 	
