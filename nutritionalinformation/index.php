@@ -42,7 +42,7 @@
 						<!-- search controls -->
 						<div>
 							Search for your food here...<br />
-							<input type="text" id="txtSearch" name="txtSearch" alt="Search Criteria" onkeyup="searchSuggest(); " disabled />
+							<input type="text" id="txtSearch" name="txtSearch" alt="Search Criteria" onkeyup="searchSuggest(); " />
 							<input type="submit" id="btnEat" name="btnEat" value="Eat" alt="0" disabled="disabled" />
 						</div>
 
