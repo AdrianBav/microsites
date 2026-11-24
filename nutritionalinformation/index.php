@@ -3,6 +3,7 @@
 
 	<head>
 		<title>Nutritional Information</title>
+		<base href="/nutritionalinformation/" />
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	  <meta name="author" content="Adrian Bavister" />
 	  <meta name="generator" content="TextPad, tab spacing 2" />
